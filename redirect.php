@@ -1,3 +1,4 @@
+<?php
 function block_users_by_role_from_single_group() {
     if (function_exists('bp_is_active') && bp_is_active('groups')) {
         // Check if on a single group page
