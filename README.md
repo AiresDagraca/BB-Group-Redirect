@@ -21,3 +21,15 @@ This WordPress snippet provides a solution for restricting access to single Budd
 
   ```php
   $restricted_roles = array('subscriber', 'contributor'); // Add or remove roles as needed
+
+## Usage
+Once installed and configured, the function automatically checks the role of the user attempting to access any single group page. If the user's role is in the restricted list, they will be redirected to the specified sale page. No additional steps are required for the function to work after setup.
+
+## Support
+This snippet is provided as-is without warranty. If you encounter any issues or require customizations, consider hiring a WordPress developer.
+
+## Contributing
+Contributions to improve this snippet are welcome. Please feel free to submit pull requests or open issues to suggest improvements.
+
+## License
+This snippet is open-source and can be used freely in personal and commercial projects.
